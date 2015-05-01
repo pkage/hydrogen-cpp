@@ -1,25 +1,25 @@
 # Hydrogen Project
-A "fully-featured" programming language
+A "fully-featured" programming language.
 ---
 
-copy `hydrogen/` into `/usr/local` and `bootstrapper/hydrogen` onto your `$PATH` to install
-
----
-
-note that while the execution server can run on either python 2.7+ or python 3.3+ it requires flask to be installed
-
-install flask with `sudo apt-get install flask`
+copy `hydrogen/` into `/usr/local` and `bootstrapper/hydrogen` onto your `$PATH` to install.
 
 ---
 
-`hydrogen-runtime/` contains the C++ runtime client
+note that while the execution server can run on either python 2.7+ or python 3.3+ it requires flask to be installed.
 
-`hydrogen-ios/` contains the ios client
-
-`hydrogen-web/` contains the web client
-
-`hydrogen/server` contains the execution server
+install flask with `sudo apt-get install flask`.
 
 ---
 
-Both the hydrogen-ios and hydrogen-web projects rely on an execution server to run
+`hydrogen-runtime/` contains the C++ runtime client.
+
+`hydrogen-ios/` contains the ios client.
+
+`hydrogen-web/` contains the web client.
+
+`hydrogen/server` contains the execution server.
+
+---
+
+Both the hydrogen-ios and hydrogen-web projects rely on an execution server to run.
