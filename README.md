@@ -17,3 +17,9 @@ install flask with `sudo apt-get install flask`
 `hydrogen-ios/` contains the ios client
 
 `hydrogen-web/` contains the web client
+
+`hydrogen/server` contains the execution server
+
+---
+
+Both the hydrogen-ios and hydrogen-web projects rely on an execution server to run
