@@ -1,0 +1,448 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD6C1F761AF2680A002214AD /* gear.png in Resources */ = {isa = PBXBuildFile; fileRef = CD6C1F751AF2680A002214AD /* gear.png */; };
+		CD7A1A5A1AF12B4700F95B4F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7A1A591AF12B4700F95B4F /* AppDelegate.swift */; };
+		CD7A1A5C1AF12B4700F95B4F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7A1A5B1AF12B4700F95B4F /* ViewController.swift */; };
+		CD7A1A5F1AF12B4700F95B4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD7A1A5D1AF12B4700F95B4F /* Main.storyboard */; };
+		CD7A1A611AF12B4700F95B4F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD7A1A601AF12B4700F95B4F /* Images.xcassets */; };
+		CD7A1A641AF12B4700F95B4F /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CD7A1A621AF12B4700F95B4F /* LaunchScreen.xib */; };
+		CD7A1A701AF12B4700F95B4F /* hydrogen_iosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD7A1A6F1AF12B4700F95B4F /* hydrogen_iosTests.swift */; };
+		CD7A1A7A1AF1393500F95B4F /* server.png in Resources */ = {isa = PBXBuildFile; fileRef = CD7A1A791AF1393500F95B4F /* server.png */; };
+		CD8FC5E61AF3108A00BCA168 /* error.png in Resources */ = {isa = PBXBuildFile; fileRef = CD8FC5E51AF3108A00BCA168 /* error.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD7A1A6A1AF12B4700F95B4F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD7A1A4C1AF12B4700F95B4F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD7A1A531AF12B4700F95B4F;
+			remoteInfo = "hydrogen-ios";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CD6C1F751AF2680A002214AD /* gear.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gear.png; sourceTree = "<group>"; };
+		CD7A1A541AF12B4700F95B4F /* hydrogen-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "hydrogen-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7A1A581AF12B4700F95B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7A1A591AF12B4700F95B4F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		CD7A1A5B1AF12B4700F95B4F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		CD7A1A5E1AF12B4700F95B4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CD7A1A601AF12B4700F95B4F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CD7A1A631AF12B4700F95B4F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CD7A1A691AF12B4700F95B4F /* hydrogen-iosTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "hydrogen-iosTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD7A1A6E1AF12B4700F95B4F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CD7A1A6F1AF12B4700F95B4F /* hydrogen_iosTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hydrogen_iosTests.swift; sourceTree = "<group>"; };
+		CD7A1A791AF1393500F95B4F /* server.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = server.png; sourceTree = "<group>"; };
+		CD8FC5E51AF3108A00BCA168 /* error.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = error.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD7A1A511AF12B4700F95B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7A1A661AF12B4700F95B4F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD7A1A4B1AF12B4700F95B4F = {
+			isa = PBXGroup;
+			children = (
+				CD7A1A561AF12B4700F95B4F /* hydrogen-ios */,
+				CD7A1A6C1AF12B4700F95B4F /* hydrogen-iosTests */,
+				CD7A1A551AF12B4700F95B4F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD7A1A551AF12B4700F95B4F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD7A1A541AF12B4700F95B4F /* hydrogen-ios.app */,
+				CD7A1A691AF12B4700F95B4F /* hydrogen-iosTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD7A1A561AF12B4700F95B4F /* hydrogen-ios */ = {
+			isa = PBXGroup;
+			children = (
+				CD7A1A7B1AF1393D00F95B4F /* images */,
+				CD7A1A591AF12B4700F95B4F /* AppDelegate.swift */,
+				CD7A1A5B1AF12B4700F95B4F /* ViewController.swift */,
+				CD7A1A5D1AF12B4700F95B4F /* Main.storyboard */,
+				CD7A1A601AF12B4700F95B4F /* Images.xcassets */,
+				CD7A1A621AF12B4700F95B4F /* LaunchScreen.xib */,
+				CD7A1A571AF12B4700F95B4F /* Supporting Files */,
+			);
+			path = "hydrogen-ios";
+			sourceTree = "<group>";
+		};
+		CD7A1A571AF12B4700F95B4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD7A1A581AF12B4700F95B4F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD7A1A6C1AF12B4700F95B4F /* hydrogen-iosTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD7A1A6F1AF12B4700F95B4F /* hydrogen_iosTests.swift */,
+				CD7A1A6D1AF12B4700F95B4F /* Supporting Files */,
+			);
+			path = "hydrogen-iosTests";
+			sourceTree = "<group>";
+		};
+		CD7A1A6D1AF12B4700F95B4F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD7A1A6E1AF12B4700F95B4F /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD7A1A7B1AF1393D00F95B4F /* images */ = {
+			isa = PBXGroup;
+			children = (
+				CD8FC5E51AF3108A00BCA168 /* error.png */,
+				CD6C1F751AF2680A002214AD /* gear.png */,
+				CD7A1A791AF1393500F95B4F /* server.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD7A1A531AF12B4700F95B4F /* hydrogen-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7A1A731AF12B4700F95B4F /* Build configuration list for PBXNativeTarget "hydrogen-ios" */;
+			buildPhases = (
+				CD7A1A501AF12B4700F95B4F /* Sources */,
+				CD7A1A511AF12B4700F95B4F /* Frameworks */,
+				CD7A1A521AF12B4700F95B4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "hydrogen-ios";
+			productName = "hydrogen-ios";
+			productReference = CD7A1A541AF12B4700F95B4F /* hydrogen-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CD7A1A681AF12B4700F95B4F /* hydrogen-iosTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD7A1A761AF12B4700F95B4F /* Build configuration list for PBXNativeTarget "hydrogen-iosTests" */;
+			buildPhases = (
+				CD7A1A651AF12B4700F95B4F /* Sources */,
+				CD7A1A661AF12B4700F95B4F /* Frameworks */,
+				CD7A1A671AF12B4700F95B4F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD7A1A6B1AF12B4700F95B4F /* PBXTargetDependency */,
+			);
+			name = "hydrogen-iosTests";
+			productName = "hydrogen-iosTests";
+			productReference = CD7A1A691AF12B4700F95B4F /* hydrogen-iosTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD7A1A4C1AF12B4700F95B4F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Patrick Kage";
+				TargetAttributes = {
+					CD7A1A531AF12B4700F95B4F = {
+						CreatedOnToolsVersion = 6.3.1;
+					};
+					CD7A1A681AF12B4700F95B4F = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = CD7A1A531AF12B4700F95B4F;
+					};
+				};
+			};
+			buildConfigurationList = CD7A1A4F1AF12B4700F95B4F /* Build configuration list for PBXProject "hydrogen-ios" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CD7A1A4B1AF12B4700F95B4F;
+			productRefGroup = CD7A1A551AF12B4700F95B4F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD7A1A531AF12B4700F95B4F /* hydrogen-ios */,
+				CD7A1A681AF12B4700F95B4F /* hydrogen-iosTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD7A1A521AF12B4700F95B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7A1A7A1AF1393500F95B4F /* server.png in Resources */,
+				CD6C1F761AF2680A002214AD /* gear.png in Resources */,
+				CD8FC5E61AF3108A00BCA168 /* error.png in Resources */,
+				CD7A1A5F1AF12B4700F95B4F /* Main.storyboard in Resources */,
+				CD7A1A641AF12B4700F95B4F /* LaunchScreen.xib in Resources */,
+				CD7A1A611AF12B4700F95B4F /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7A1A671AF12B4700F95B4F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD7A1A501AF12B4700F95B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7A1A5C1AF12B4700F95B4F /* ViewController.swift in Sources */,
+				CD7A1A5A1AF12B4700F95B4F /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD7A1A651AF12B4700F95B4F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD7A1A701AF12B4700F95B4F /* hydrogen_iosTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD7A1A6B1AF12B4700F95B4F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD7A1A531AF12B4700F95B4F /* hydrogen-ios */;
+			targetProxy = CD7A1A6A1AF12B4700F95B4F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD7A1A5D1AF12B4700F95B4F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7A1A5E1AF12B4700F95B4F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CD7A1A621AF12B4700F95B4F /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD7A1A631AF12B4700F95B4F /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD7A1A711AF12B4700F95B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		CD7A1A721AF12B4700F95B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD7A1A741AF12B4700F95B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "hydrogen-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CD7A1A751AF12B4700F95B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "hydrogen-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CD7A1A771AF12B4700F95B4F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "hydrogen-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hydrogen-ios.app/hydrogen-ios";
+			};
+			name = Debug;
+		};
+		CD7A1A781AF12B4700F95B4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "hydrogen-iosTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hydrogen-ios.app/hydrogen-ios";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD7A1A4F1AF12B4700F95B4F /* Build configuration list for PBXProject "hydrogen-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7A1A711AF12B4700F95B4F /* Debug */,
+				CD7A1A721AF12B4700F95B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7A1A731AF12B4700F95B4F /* Build configuration list for PBXNativeTarget "hydrogen-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7A1A741AF12B4700F95B4F /* Debug */,
+				CD7A1A751AF12B4700F95B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD7A1A761AF12B4700F95B4F /* Build configuration list for PBXNativeTarget "hydrogen-iosTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD7A1A771AF12B4700F95B4F /* Debug */,
+				CD7A1A781AF12B4700F95B4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD7A1A4C1AF12B4700F95B4F /* Project object */;
+}

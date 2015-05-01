@@ -1,0 +1,3 @@
+def .testfn as string
+@io.print "\nRunning a function from an imported bit\n"
+end

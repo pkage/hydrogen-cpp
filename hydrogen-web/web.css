@@ -1,0 +1,55 @@
+.fullscreen {
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+}
+
+.fullheight {
+	height: 100%;
+}
+
+.fullsize {
+	width: 100%;
+	height: 100%;
+}
+
+.control {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	background-color: #9e9e9e;
+	text-align: center;
+	margin-bottom: .1em;
+	cursor: pointer;
+}
+
+.monospace {
+	font-family: 'Inconsolata' !important ;
+}
+
+.scrollable {
+	overflow: scroll !important;
+}
+
+.editor {
+	font-family: 'Inconsolata' !important;
+	background-color: #fff;
+	border: none;
+	resize: none;
+	outline:none;
+	padding: 0px;
+	max-height: 100% !important;
+	overflow: auto !important;
+}
+
+.bottomright {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	margin: auto;
+	padding-bottom: 1em;
+	padding-right: 1em;
+}
+
+.bottomright-inner {
+	position: relative;
+}

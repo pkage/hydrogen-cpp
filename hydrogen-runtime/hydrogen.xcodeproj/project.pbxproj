@@ -1,0 +1,318 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD2885301AE766C400725292 /* math.hylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD28852E1AE766B700725292 /* math.hylib */; };
+		CD2885331AE7CD2D00725292 /* convert.hylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD2885311AE7CD2300725292 /* convert.hylib */; };
+		CD2885361AE8CD2600725292 /* imported.hyx in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD2885351AE7CF9100725292 /* imported.hyx */; };
+		CD5A9C7C1ADFFB1F005EAD46 /* alive.hyx in CopyFiles */ = {isa = PBXBuildFile; fileRef = CDE6030D1AD8D51B009AE7F1 /* alive.hyx */; };
+		CD5A9C861AE0A268005EAD46 /* io.hylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD5A9C841AE0A261005EAD46 /* io.hylib */; };
+		CD87B9861AE8CFBF00CB0A27 /* reflect.hylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD2885371AE8CF3000725292 /* reflect.hylib */; };
+		CDE602FC1AD817A0009AE7F1 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = CDE602FB1AD817A0009AE7F1 /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CDE602F61AD817A0009AE7F1 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 12;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				CD87B9861AE8CFBF00CB0A27 /* reflect.hylib in CopyFiles */,
+				CD2885361AE8CD2600725292 /* imported.hyx in CopyFiles */,
+				CD2885331AE7CD2D00725292 /* convert.hylib in CopyFiles */,
+				CD2885301AE766C400725292 /* math.hylib in CopyFiles */,
+				CD5A9C861AE0A268005EAD46 /* io.hylib in CopyFiles */,
+				CD5A9C7C1ADFFB1F005EAD46 /* alive.hyx in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD28852E1AE766B700725292 /* math.hylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = math.hylib; sourceTree = "<group>"; };
+		CD2885311AE7CD2300725292 /* convert.hylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = convert.hylib; sourceTree = "<group>"; };
+		CD2885341AE7CEA900725292 /* interpreter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = interpreter.h; sourceTree = "<group>"; };
+		CD2885351AE7CF9100725292 /* imported.hyx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = imported.hyx; sourceTree = "<group>"; };
+		CD2885371AE8CF3000725292 /* reflect.hylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = reflect.hylib; sourceTree = "<group>"; };
+		CD5A9C411ADC3EDD005EAD46 /* directiveprocessor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = directiveprocessor.h; sourceTree = "<group>"; };
+		CD5A9C421ADC3FC8005EAD46 /* errorstack.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = errorstack.h; sourceTree = "<group>"; };
+		CD5A9C431ADC3FFC005EAD46 /* errors.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = errors.h; sourceTree = "<group>"; };
+		CD5A9C441ADD768F005EAD46 /* comparationresults.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = comparationresults.h; sourceTree = "<group>"; };
+		CD5A9C741ADE9148005EAD46 /* dpspooler.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dpspooler.h; sourceTree = "<group>"; };
+		CD5A9C781ADE952C005EAD46 /* functiondict.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = functiondict.h; sourceTree = "<group>"; };
+		CD5A9C7B1ADEAF7A005EAD46 /* dpspooler_req.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = dpspooler_req.h; sourceTree = "<group>"; };
+		CD5A9C841AE0A261005EAD46 /* io.hylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; path = io.hylib; sourceTree = "<group>"; };
+		CD5A9C871AE0A291005EAD46 /* nativeprovider.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = nativeprovider.h; sourceTree = "<group>"; };
+		CDE602F81AD817A0009AE7F1 /* hydrogen */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = hydrogen; sourceTree = BUILT_PRODUCTS_DIR; };
+		CDE602FB1AD817A0009AE7F1 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		CDE603021AD81A26009AE7F1 /* linebundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = linebundle.h; sourceTree = "<group>"; };
+		CDE603031AD81CAB009AE7F1 /* fextractor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fextractor.h; sourceTree = "<group>"; };
+		CDE603051AD820AA009AE7F1 /* directivehints.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = directivehints.h; sourceTree = "<group>"; };
+		CDE603071AD82178009AE7F1 /* directive.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = directive.h; sourceTree = "<group>"; };
+		CDE603081AD8C4B1009AE7F1 /* directivebundle.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = directivebundle.h; sourceTree = "<group>"; };
+		CDE603091AD8CC6C009AE7F1 /* reference.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = reference.h; sourceTree = "<group>"; };
+		CDE6030A1AD8CD4B009AE7F1 /* types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = types.h; sourceTree = "<group>"; };
+		CDE6030B1AD8CE34009AE7F1 /* value.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = value.h; sourceTree = "<group>"; };
+		CDE6030C1AD8D057009AE7F1 /* context.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = context.h; sourceTree = "<group>"; };
+		CDE6030D1AD8D51B009AE7F1 /* alive.hyx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = alive.hyx; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CDE602F51AD817A0009AE7F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD5A9C7F1AE07DF2005EAD46 /* libraries */ = {
+			isa = PBXGroup;
+			children = (
+				CD2885371AE8CF3000725292 /* reflect.hylib */,
+				CD2885311AE7CD2300725292 /* convert.hylib */,
+				CD28852E1AE766B700725292 /* math.hylib */,
+				CD5A9C841AE0A261005EAD46 /* io.hylib */,
+			);
+			name = libraries;
+			sourceTree = "<group>";
+		};
+		CDE602EF1AD817A0009AE7F1 = {
+			isa = PBXGroup;
+			children = (
+				CDE602FA1AD817A0009AE7F1 /* hydrogen */,
+				CDE602F91AD817A0009AE7F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CDE602F91AD817A0009AE7F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CDE602F81AD817A0009AE7F1 /* hydrogen */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CDE602FA1AD817A0009AE7F1 /* hydrogen */ = {
+			isa = PBXGroup;
+			children = (
+				CD5A9C7F1AE07DF2005EAD46 /* libraries */,
+				CD5A9C871AE0A291005EAD46 /* nativeprovider.h */,
+				CD5A9C7B1ADEAF7A005EAD46 /* dpspooler_req.h */,
+				CDE602FB1AD817A0009AE7F1 /* main.cpp */,
+				CD5A9C781ADE952C005EAD46 /* functiondict.h */,
+				CD5A9C411ADC3EDD005EAD46 /* directiveprocessor.h */,
+				CD5A9C741ADE9148005EAD46 /* dpspooler.h */,
+				CD5A9C421ADC3FC8005EAD46 /* errorstack.h */,
+				CDE603081AD8C4B1009AE7F1 /* directivebundle.h */,
+				CDE603021AD81A26009AE7F1 /* linebundle.h */,
+				CD5A9C431ADC3FFC005EAD46 /* errors.h */,
+				CDE603031AD81CAB009AE7F1 /* fextractor.h */,
+				CDE603051AD820AA009AE7F1 /* directivehints.h */,
+				CDE603071AD82178009AE7F1 /* directive.h */,
+				CDE603091AD8CC6C009AE7F1 /* reference.h */,
+				CDE6030A1AD8CD4B009AE7F1 /* types.h */,
+				CDE6030B1AD8CE34009AE7F1 /* value.h */,
+				CD5A9C441ADD768F005EAD46 /* comparationresults.h */,
+				CDE6030C1AD8D057009AE7F1 /* context.h */,
+				CDE6030D1AD8D51B009AE7F1 /* alive.hyx */,
+				CD2885351AE7CF9100725292 /* imported.hyx */,
+				CD2885341AE7CEA900725292 /* interpreter.h */,
+			);
+			path = hydrogen;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CDE602F71AD817A0009AE7F1 /* hydrogen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CDE602FF1AD817A0009AE7F1 /* Build configuration list for PBXNativeTarget "hydrogen" */;
+			buildPhases = (
+				CDE602F41AD817A0009AE7F1 /* Sources */,
+				CDE602F51AD817A0009AE7F1 /* Frameworks */,
+				CDE602F61AD817A0009AE7F1 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hydrogen;
+			productName = hydrogen;
+			productReference = CDE602F81AD817A0009AE7F1 /* hydrogen */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CDE602F01AD817A0009AE7F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = "Patrick Kage";
+				TargetAttributes = {
+					CDE602F71AD817A0009AE7F1 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = CDE602F31AD817A0009AE7F1 /* Build configuration list for PBXProject "hydrogen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CDE602EF1AD817A0009AE7F1;
+			productRefGroup = CDE602F91AD817A0009AE7F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CDE602F71AD817A0009AE7F1 /* hydrogen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CDE602F41AD817A0009AE7F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CDE602FC1AD817A0009AE7F1 /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CDE602FD1AD817A0009AE7F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		CDE602FE1AD817A0009AE7F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		CDE603001AD817A0009AE7F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/hydrogen",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-ldl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CDE603011AD817A0009AE7F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/hydrogen",
+				);
+				"OTHER_LDFLAGS[arch=*]" = "-ldl";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CDE602F31AD817A0009AE7F1 /* Build configuration list for PBXProject "hydrogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE602FD1AD817A0009AE7F1 /* Debug */,
+				CDE602FE1AD817A0009AE7F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CDE602FF1AD817A0009AE7F1 /* Build configuration list for PBXNativeTarget "hydrogen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CDE603001AD817A0009AE7F1 /* Debug */,
+				CDE603011AD817A0009AE7F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CDE602F01AD817A0009AE7F1 /* Project object */;
+}

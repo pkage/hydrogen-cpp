@@ -1,0 +1,81 @@
+// this is a test
+import io
+import math
+import convert
+import reflect
+
+include imported.hyx
+.testfn
+
+declare $name as string
+$name = "Patrick"
+print "starting sequence\n"
+
+def .greet as void
+declare $tmp as string
+$tmp = "Hello "
+$tmp += $1
+$tmp += "!\n"
+print $tmp
+end
+
+def .hello as void
+declare $var as string
+$var = "test\n"
+print $var
+end
+
+
+
+.greet $name
+
+if $name == "Patrick"
+.hello
+end
+
+declare $forprinting as string
+$forprinting = "Test print"
+
+print "Printing with a native call: \n"
+
+@io.print $forprinting
+
+print "\ndone printing natively\ndiagnosing: \n"
+
+@reflect.diagnostic $forprinting
+
+label 1
+@io.print "\nusing some numbers: "
+declare $num as number
+$num = 0.05
+$num += 0.10
+$num *= 4
+
+$num = @math.sqrt $num
+@io.print "result: "
+@io.print $num
+@io.print "\n"
+@reflect.diagnostic $num
+
+declare $jmp as number
+declare $tmp as string
+$tmp = @io.readline "Jump to label: "
+$jmp = @convert.ston $tmp
+
+goto $jmp
+label 2
+
+declare $num2 as number
+$num2 = $num
+@io.print $num2
+
+def .add as number
+declare $export as number
+$1 += $2
+$export = $1
+end
+
+@io.print "\nadding 1 and 2: "
+.add 1 2
+@io.print $export
+@io.print "\n"
