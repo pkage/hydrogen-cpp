@@ -1,0 +1,59 @@
+<html>
+<head>
+	<title>Hydrogen Web Client</title>
+	<!-- load in some css and js from a cdn -->
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/css/materialize.min.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.96.1/js/materialize.min.js"></script>
+	<link href='http://fonts.googleapis.com/css?family=Inconsolata' rel='stylesheet' type='text/css'>
+
+	<!-- load in our own js and css-->
+	<link rel="stylesheet" href="/web.css">
+	<script src="/web.js"></script>
+</head>
+<body>
+	<div class="fullscreen">
+		<nav>
+			<div class="nav-wrapper">
+				<a href="#" class="brand-logo">&nbsp;hydrogen web client</a>
+				<ul id="nav-mobile" class="right hide-on-med-and-down">
+					<li><a href="https://github.com/quadnix/hydrogen-cpp" target="_blank"><i class="mdi-hardware-computer right"></i>view on github</a></li>
+				</ul>
+			</div>
+		</nav>
+		<div class="fullheight grey lighten-5" id="fullcontainer">
+			<span class="bottomright">
+				<span class="bottomright-inner">
+					<a class="btn-floating btn-large waves-effect waves-light blue" id="configModalTrigger"><i class="mdi-action-settings"></i></a>
+					<a class="btn-floating btn-large waves-effect waves-light green" id="executeButton"><i class="mdi-av-play-arrow"></i></a>
+				</span>
+			</span>
+			<div class="fullheight container">
+				<textarea id="editor" class="fullsize monospace editor textarea" wrap="off">// write some code here</textarea>
+			</div>
+		</div>
+	</div>
+
+	<div id="configModal" class="modal">
+		<div class="modal-content">
+			<h4>Configure Execution Server Address</h4>
+			<input type="text" placeholder="127.0.0.1:5000" id="addrinput">
+		</div>
+		<div class="modal-footer">
+			<a href="#!" class=" modal-action waves-effect waves-green btn-flat" id="saveAddr">Save</a>
+		</div>
+	</div>
+
+	<div id="execModal" class="modal">
+		<div class="modal-content">
+			<h4 id="execStatus"></h4>
+			<div id="return">
+
+			</div>
+		</div>
+		<div class="modal-footer">
+			<a href="#!" class=" modal-action waves-effect waves-green btn-flat modal-close" id="saveAddr">Close</a>
+		</div>
+	</div>
+</body>
+</html>
