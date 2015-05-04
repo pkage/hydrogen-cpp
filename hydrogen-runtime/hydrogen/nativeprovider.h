@@ -164,7 +164,7 @@ namespace hyd {
                 }
 
                 dlerror();
-                pkg += ".hylib";
+                pkg = ((loadLocation.back() == '/') ? loadLocation : loadLocation + "/") + pkg + ".hylib";
                 void* handle = dlopen(pkg.c_str(), RTLD_LAZY);
                 if (!handle) {
                     es->add(err::Error("NativeProvider", "call", string(dlerror())));
